@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> position page</title>
+
+    <style>
+div{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    margin:50px;
+}
+
+#static {
+    background: orange;
+    position: static;/*default*/
+}
+#sticky {
+background: pink;
+position: sticky;
+}
+#relative {
+    background: blue;
+    position: relative;
+    left: 50px;
+    top: -100px
+    
+}
+#fixed {
+    background: green;
+    position: fixed;
+    left: 200px;
+    top: 0;
+}
+#absolute {
+    background: red;
+    position: absolute;
+    left: 300px;
+    bottom: 300px
+}
+    </style>
+
+
+
+
+
+
+</head>
+
+
+<body>
+    <div id="static"></div>
+    <div id="sticky"></div>
+    <div id="relative"></div>
+    <div id="fixed"></div>
+    <div id="absolute"></div>
+   
+    </body>
+
+</html>
