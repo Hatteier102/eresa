@@ -22,32 +22,36 @@
         header {
 
             grid-area: header;
-            background: grey;
+            background: rgb(158, 186, 150);
         }
 
         footer {
             grid-area: footer;
-            background: grey;
+            background: rgb(225, 120, 152);
+            display: inline;
         }
 
         nav {
+            align-items: center;
             grid-area: nav;
-            background: rgb(140, 140, 140)
+            background: rgb(120, 201, 136)
         }
 
         article {
             grid-area: article;
-            background: silver;
+            background: rgba(158, 186, 150, 0.802);
         }
 
         ul {
             list-style-type: none;
-            margin: 0;
+            margin-left: 50px;
+            margin-right: 50px;
             padding: 0;
 
         }
 
         nav ul li a {
+            align-items: center;
             display: block;
             font-family: "Shadows Into Light", cursive;
             text-align: center;
@@ -59,18 +63,16 @@
         }
 
         nav ul li a:hover {
-            background: goldenrod;
-            border: goldenrod;
+            background: rgb(233, 167, 147);
+            border: rgb(233, 167, 147);
         }
 
         body {
             font-family: "Shadows Into Light", cursive;
-        } 
+        }
 
-        header img {
-            position: absolute;
-            top:100px;
-            left:-50px;
+        nav ul img{
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -78,12 +80,15 @@
 <body>
     <header>
         <h1>seahorses</h1>
-        <img src="seahorse-2.png" alt= />
         
+
+
     </header>
 
     <nav>
         <ul>
+            <img src="seahorse-2.png" alt= />
+
             <li><a href="#">Seahorse Home</a></li>
 
             <li><a href="#">Seahorse News</a></li>
@@ -100,7 +105,7 @@
     </nav>
 
     <article>
-        <img src="seahorse 1.png"/>
+        <img src="seahorse 1.png" />
         <h1>SEAHORSE FACTS</h1>
         <h2>Name</h2>
         <p>The Latin name for seahorse is Hippocampus which means "Horse
@@ -146,14 +151,14 @@
             <li>
                 <h3>Friends:</h3>
             </li>
-            
-                <li><a href="http://www.nationalgeographic.com/animals/fish/group/seahorses/" target="_blank">National
-                        Geographic</a> </li>
-           
-                <li><a href="http://seahorse.com/" target="_blank">Seahorse.com</a> </li>
-            
-                <li><a href="http://www.allthesea.com/Seahorses.html" target="_blank">All
-                        The Sea</a></li>
+
+            <li><a href="http://www.nationalgeographic.com/animals/fish/group/seahorses/" target="_blank">National
+                    Geographic</a> </li>
+
+            <li><a href="http://seahorse.com/" target="_blank">Seahorse.com</a> </li>
+
+            <li><a href="http://www.allthesea.com/Seahorses.html" target="_blank">All
+                    The Sea</a></li>
         </ul>
         <p>&copy; Seahorse Serenity 2026</p>
     </footer>
